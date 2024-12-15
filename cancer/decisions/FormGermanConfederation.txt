@@ -1,0 +1,55 @@
+country_decisions = {
+
+	north_german_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_german_confederation_flag }
+			tag = PRU
+			NOT = { exists = GCF }
+		}
+		
+		provinces_to_highlight = {
+            AND = {
+                region = north_germany
+                NOT = { 
+					area = erzgebirge_area 
+					area = bohemia_area
+					area = moravia_area
+				}
+            }
+		}
+
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			is_emperor = no
+			tag = PRU
+			north_german_region = {
+				type = all
+				OR = {
+					owned_by = ROOT
+					area = bohemia_area
+					area = erzgebirge_area
+					area = moravia_area
+				}
+			}
+		}
+		effect = {
+			change_tag = GCF
+			north_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GCF
+			}
+			add_prestige = 20
+            add_legitimacy = 15
+			set_country_flag = formed_german_confederation_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

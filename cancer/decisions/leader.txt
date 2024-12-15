@@ -1,0 +1,629 @@
+country_decisions = {
+	diplo_france = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = french
+		}
+		allow = {
+			ai = no
+			culture_group = french
+		}
+		effect = {
+			define_ruler = {
+				name = "Louis XXVII"
+				dynasty = "Valois"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = charismatic_negotiator_personality
+			add_ruler_personality = silver_tongue_personality
+			add_ruler_personality = well_connected_personality
+			add_ruler_personality = careful_personality	
+		}
+	}
+	rich_france = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = french
+		}
+		allow = {
+			ai = no
+			culture_group = french
+		}
+		effect = {
+			define_ruler = {
+				name = "Sofia"
+				dynasty = "Moreau"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				female = yes
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = industrious_personality
+			add_ruler_personality = entrepreneur_personality
+			add_ruler_personality = merchant_basileus_personality
+			add_ruler_personality = great_engineer_personality
+		}
+	}
+	mil_france = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = french
+		}
+		allow = {
+			ai = no
+			culture_group = french
+		}
+		effect = {
+			define_ruler = {
+				name = "Leon"
+				dynasty = "Moreau"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = legendary_conqueror_personality
+			add_ruler_personality = protector_of_the_little_folk_personality
+		}
+	}
+	pog_leader_persia = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = iranian
+		}
+		allow = {
+			ai = no
+			culture_group = iranian
+		}
+		effect = {
+			define_ruler = {
+				name = "Reynaud"
+				dynasty = "Safavid"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = industrious_personality
+			add_ruler_personality = strict_personality
+		}
+	}
+	pog_leader_uk = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = british
+		}
+		allow = {
+			ai = no
+			culture_group = british
+		}
+		effect = {
+			define_ruler = {
+				name = "Bichael"
+				dynasty = "Tudor"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = industrious_personality
+			add_ruler_personality = expansionist_personality
+			add_ruler_personality = merchant_basileus_personality
+			add_ruler_personality = great_engineer_personality
+		}
+	}
+	pog_leader_brandenburg = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = germanic
+		}
+		allow = {
+			ai = no
+			culture_group = germanic
+		}
+		effect = {
+			define_ruler = {
+				name = "Erich"
+				dynasty = "von Kaiser"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = careful_personality
+		}
+	}
+	pog_leader_austria = {
+		major = yes
+		potential = {
+			ai = no
+			tag = HAB
+		}
+		allow = {
+			ai = no
+			tag = HAB
+		}
+		effect = {
+			define_ruler = {
+				name = "Leom"
+				dynasty = "Pie"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = charismatic_negotiator_personality
+		}
+	}
+	pog_leader_russia = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = east_slavic
+		}
+		allow = {
+			ai = no
+			culture_group = east_slavic
+		}
+		effect = {
+			define_ruler = {
+				name = "Vadim"
+				dynasty = "Romanov"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = just_personality
+		}
+	}
+	pog_leader_spain = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = iberian
+			NOT = { culture = portugese } 
+			OR = {
+				religion = catholic
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+				religion = orthodox
+				religion = coptic
+			}
+		}
+		allow = {
+			ai = no
+			culture_group = iberian
+			NOT = { culture = portugese } 
+			OR = {
+				religion = catholic
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+				religion = orthodox
+				religion = coptic
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Faustina"
+				dynasty = "Trastamara"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				female = yes
+				religion = catholic
+				culture = andalucian
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = expansionist_personality
+			add_ruler_personality = martial_educator_personality
+		}
+	}
+	pog_leader_poland = {
+		major = yes
+		potential = {
+			ai = no
+			OR = {
+				tag = POL
+				tag = PLC
+			}
+		}
+		allow = {
+			ai = no
+			OR = {
+				tag = POL
+				tag = PLC
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Agnieszka"
+				dynasty = "Sobieska"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				female = yes
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = martial_educator_personality
+			
+		}
+	}
+	pog_leader_italy = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = latin
+		}
+		allow = {
+			ai = no
+			culture_group = latin
+		}
+		effect = {
+			define_ruler = {
+				name = "Pasta"
+				dynasty = "Nigatoni"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = industrious_personality
+		}
+	}
+	pog_leader_denmark = {
+		major = yes
+		potential = {
+			ai = no
+			OR = {
+				tag = DAN
+				tag = SCA
+			}
+		}
+		allow = {
+			ai = no
+			OR = {
+				tag = DAN
+				tag = SCA
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Erik"
+				dynasty = "Sogard"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = danish
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = strict_personality
+		}
+	}
+	pog_leader_sweden = {
+		major = yes
+		potential = {
+			ai = no
+			OR = {
+				tag = SWE
+				tag = SCA
+			}
+		}
+		allow = {
+			ai = no
+			OR = {
+				tag = SWE
+				tag = SCA
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Sven"
+				dynasty = "Gustavus"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = swedish
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = martial_educator_personality
+			add_ruler_personality = inspiring_leader_personality
+		}
+	}
+	pog_leader_japan = {
+		major = yes
+		potential = {
+			ai = no
+			
+			OR = {
+				culture_group = japanese_g
+			}
+		}
+		allow = {
+			ai = no
+			OR = {
+				culture_group = japanese_g
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Emiko"
+				dynasty = "Yamato"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				female = yes
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = expansionist_personality
+			
+		}
+	}
+	
+	pog_leader_india = {
+		major = yes
+		potential = {
+			ai = no
+			
+			OR = {
+				culture_group = eastern_aryan
+				culture_group = western_aryan
+				culture_group = central_indic
+				culture_group = dravidian
+				culture_group = hindusthani
+			}
+		}
+		allow = {
+			ai = no
+			OR = {
+				culture_group = eastern_aryan
+				culture_group = western_aryan
+				culture_group = central_indic
+				culture_group = dravidian
+				culture_group = hindusthani
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Curry"
+				dynasty = "TechSupport"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = industrious_personality
+			
+		}
+	}
+	pog_leader_byzantium = {
+		major = yes
+		potential = {
+			ai = no
+			OR = {
+				tag = BYZ
+			}
+		}
+		allow = {
+			ai = no
+			OR = {
+				tag = BYZ
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Sussus II"
+				dynasty = "Amogus"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = martial_educator_personality
+			add_ruler_personality = inspiring_leader_personality
+		}
+	}
+	pog_leader_mamluk = {
+		major = yes
+		potential = {
+			ai = no
+			OR = {
+				tag = MAM
+			}
+		}
+		allow = {
+			ai = no
+			OR = {
+				tag = MAM
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Monika"
+				dynasty = "Moreau"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				female = yes
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = strict_personality
+		}
+	}
+	pog_leader_oirat = {
+		major = yes
+		potential = {
+			ai = no
+			OR = {
+				culture_group = altaic
+			}
+		}
+		allow = {
+			ai = no
+			OR = {
+				culture_group = altaic
+			}
+		}
+		effect = {
+			define_ruler = {
+				name = "Kapy"
+				dynasty = "Khan"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 18
+				claim = 100
+				female = yes
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = strict_personality
+		}
+	}
+	pog_leader_1 = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			define_ruler = {
+				name = "among"
+				dynasty = "us"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 44
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = protector_of_the_little_folk_personality
+			add_ruler_personality = martial_educator_personality
+		}
+	}
+	pog_leader_2 = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			define_ruler = {
+				name = "fall"
+				dynasty = "guy"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 44
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = industrious_personality
+			add_ruler_personality = expansionist_personality
+			add_ruler_personality = merchant_basileus_personality
+			add_ruler_personality = great_engineer_personality
+		}
+	}
+}
+	

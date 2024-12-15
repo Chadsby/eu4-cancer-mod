@@ -1,0 +1,38 @@
+CHN_ideas = {
+	start = {
+		fort_maintenance_modifier = -0.2
+		idea_cost = -0.10
+	}
+	
+	bonus = {
+		infantry_power = 0.10
+	}
+	
+	trigger = {
+		tag = CHN
+	}
+	free = yes		#will be added at load.
+	
+	nine_garrisons_of_the_great_wall = {
+		defensiveness = 0.05
+		garrison_size = 0.25
+	}
+	revived_three_grand_divisions = {
+		discipline = 0.05
+	}
+	inward_perfection = {
+		global_manpower_modifier = 0.15
+	}
+	yellow_river_dykes = {
+		production_efficiency = 0.1
+	}
+	salt_monopoly = {
+		trade_efficiency = 0.1
+	}
+	single_whip_law = {
+		global_tax_modifier = 0.10
+	}
+	the_red_cannon = {
+		leader_land_fire = 1
+	}
+}

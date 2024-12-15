@@ -1,0 +1,106 @@
+namespace = ngf_event
+country_event = {
+	id = flavor_ngf.1
+	title = "flavor_ngf.1_title"
+	desc = "flavor_ngf.1_desc"
+	picture = deutsch
+	
+	major = yes
+	
+	trigger = {
+		ai = yes
+		was_player = no
+		NOT = { tag = PRU }
+		NOT = { hre_size = 1 }
+		PRU = {
+			exists = yes
+			NOT = { truce_with = ROOT }
+		}
+		is_free_or_tributary_trigger = yes
+		is_at_war = no
+		any_owned_province = {
+			region = north_german_region
+		}
+		AND = {
+			culture_group = germanic
+			NOT = {
+				primary_culture = austrian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = swiss
+			}
+		}
+		NOT = {
+			has_country_flag = state_joined_ngf
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "flavor_ngf.1.option"
+		PRU = {
+			country_event = { id = flavor_ngf.2 days = 1 }
+		}
+		set_country_flag = state_joined_ngf
+	}
+}
+
+# Incorporated into the NGF
+country_event = {
+	id = flavor_ngf.2
+	title = "flavor_ngf.2_title"
+	desc = "flavor_ngf.2_desc"
+	picture = deutsch
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_ngf.2.option"
+		FROM = {
+			every_owned_province = 
+				add_core = PRU
+			}
+		}
+		inherit = FROM
+	}
+}
+# JoJo
+country_event = {
+	id = flavor_ngf.3
+	title = "flavor_ngf.3_title"
+	desc = "flavor_ngf.3_desc"
+	picture = jojo
+	
+	trigger = {
+		tag = HAB
+		is_rival = PRU 
+		PRU = {is_rival = HAB}
+		NOT = { hre_size = 1 }
+		NOT = {has_global_flag = jojo}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "flavor_ngf.3.option"
+		PRU = {
+			country_event = {id = flavor_ngf.4 days = 1}
+		set_global_flag = jojo
+		}
+	}
+}
+country_event = {
+	id = flavor_ngf.4
+	title = "flavor_ngf.3_title"
+	desc = "flavor_ngf.3_desc"
+	picture = jojo
+	
+	is_triggered_only = yes
+	option = {
+		name = "flavor_ngf.4.option"
+	}
+}
+	

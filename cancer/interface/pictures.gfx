@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "deutsch"
+		texturefile ="gfx/event_pictures/deutsch.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "jojo"
+		texturefile = "gfx/event_pictures/jojo.dds"
+		allwaystransparent = yes
+	}
+}

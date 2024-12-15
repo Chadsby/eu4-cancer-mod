@@ -1,0 +1,18 @@
+country_decisions = {
+    diplo_relations = {
+        potential = {
+            ai = no
+            NOT = {has_country_flag = more_diplo_flag}
+        }
+        allow = {
+            ai = no
+        }
+        effect = {
+            add_country_modifier = {
+                name = more_diplo_relations
+                duration = -1
+            }  
+            set_country_flag = more_diplo_flag
+        }
+    }
+}

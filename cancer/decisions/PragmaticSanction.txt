@@ -1,0 +1,23 @@
+country_decisions = {
+
+	pragmatic_sanction_decision = {
+		potential = {
+			ai = no
+            NOT = {has_global_flag = prag_sanct}
+			allows_female_emperor = no
+			NOT = { has_country_flag = pragmatic_sanction }
+			is_part_of_hre = yes
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_global_flag = prag_sanct 
+			country_event = { id = pragmatic_sanction.2 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

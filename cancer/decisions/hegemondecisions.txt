@@ -1,0 +1,88 @@
+country_decisions = {
+	eco_hegemon = {
+		allow = {
+			major = yes
+			ai = no
+			is_a_great_power = yes
+			monthly_income = 400
+			prestige = 0
+			NOT = { any_other_great_power = { monthly_income = root } }
+			NOT = { has_country_modifier = lost_hegemony }
+			not = { has_country_modifier = eco_hegemon }
+			not = { has_country_modifier = navy_hegemon }
+			not = { has_country_modifier = mil_hegemon }
+		}
+		potential = {
+			ai = no
+			not = { has_country_modifier = eco_hegemon }
+			not = { has_country_modifier = navy_hegemon }
+			not = { has_country_modifier = mil_hegemon }
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = eco_hegemon
+				duration = -1
+			}
+		}
+
+	}
+#####################################
+	navy_hegemon = {
+		allow = {
+			major = yes
+			ai = no
+			is_a_great_power = yes
+			num_of_heavy_ship = 100
+			prestige = 0
+			NOT = { any_other_great_power = { num_of_heavy_ship = root } }
+			NOT = { has_country_modifier = lost_hegemony }
+			not = { has_country_modifier = eco_hegemon }
+			not = { has_country_modifier = navy_hegemon }
+			not = { has_country_modifier = mil_hegemon }
+		}
+		potential = {
+			ai = no
+		`	not = { has_country_modifier = eco_hegemon }
+			not = { has_country_modifier = navy_hegemon }
+			not = { has_country_modifier = mil_hegemon }
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = navy_hegemon
+				duration = -1
+			}
+		}
+
+	}
+#####################################
+	mil_hegemon = {
+		allow = {
+			major = yes
+			ai = no
+			is_a_great_power = yes
+			army_size = 400
+			prestige = 0
+			NOT = { any_other_great_power = { army_size = root } }
+			NOT = { has_country_modifier = lost_hegemony }
+			not = { has_country_modifier = eco_hegemon }
+			not = { has_country_modifier = navy_hegemon }
+			not = { has_country_modifier = mil_hegemon }
+		}
+		potential = {
+			ai = no
+			not = { has_country_modifier = eco_hegemon }
+			not = { has_country_modifier = navy_hegemon }
+			not = { has_country_modifier = mil_hegemon }
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = mil_hegemon
+				duration = -1
+			}
+		}
+
+	}
+}

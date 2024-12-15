@@ -1,0 +1,76 @@
+country_decisions = {
+	chinese_nation_unite = {
+		major = yes 
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = united_china }
+			NOT = {tag = KOR}
+			NOT = {tag = JAP}
+			culture_group = east_asian
+		}
+		provinces_to_highlight = {
+			province_id = 1821 #Nanking
+			province_id = 667  #Guangzhou
+			province_id = 1816 #Beijing
+			province_id = 680 #Chongqing 
+			province_id = 686 #Anqing
+			province_id = 684 #Hangzhou
+		}
+		allow = {
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 1821 #Nanking
+			owns_core_province = 667  #Guangzhou
+			owns_core_province = 1816 #Beijing
+			owns_core_province = 680 #Chongqing 
+			owns_core_province = 686 #Anqing
+			owns_core_province = 684 #Hangzhou
+		}
+		effect = {
+			change_tag = CHN
+			set_government_rank = 3
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			dismantle_empire_of_china = yes
+			add_government_reform = feudalism_reform
+			set_country_flag = united_china
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	bb_formation = {
+		major = yes 
+		potential = {
+			culture_group = germanic
+			owns_core_province = 50 #Berlin
+			NOT = {exists = BRA}
+			NOT = {has_country_flag = formed_bra_flag}
+			ai = no
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = BRA
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_in_empire = yes
+			elector = yes
+			swap_non_generic_missions = yes
+			set_country_flag = formed_bra_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
