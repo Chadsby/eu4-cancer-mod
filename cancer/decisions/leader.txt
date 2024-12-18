@@ -1,4 +1,33 @@
 country_decisions = {
+	bmoye_france = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = french
+		}
+		allow = {
+			ai = no
+			culture_group = french
+		}
+		effect = {
+			define_ruler = {
+				name = "Moyel II"
+				dynasty = "Barnaby"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 44
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = free_thinker_personality
+			add_ruler_personality = conqueror_personality
+			add_ruler_personality = midas_touched_personality	
+		}
+	}
 	diplo_france = {
 		major = yes
 		potential = {
@@ -12,11 +41,11 @@ country_decisions = {
 		effect = {
 			define_ruler = {
 				name = "Louis XXVII"
-				dynasty = "Valois"
+				dynasty = "de Valois"
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
@@ -45,7 +74,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				female = yes
 				religion = ROOT
@@ -75,7 +104,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
@@ -84,7 +113,7 @@ country_decisions = {
 			add_ruler_personality = inspiring_leader_personality
 			add_ruler_personality = strict_personality
 			add_ruler_personality = legendary_conqueror_personality
-			add_ruler_personality = protector_of_the_little_folk_personality
+			add_ruler_personality = iron_crowned_personality
 		}
 	}
 	pog_leader_persia = {
@@ -104,7 +133,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
@@ -112,6 +141,8 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = industrious_personality
 			add_ruler_personality = strict_personality
+			add_ruler_personality = iron_crowned_personality
+			add_ruler_personality = inspiring_leader_personality
 		}
 	}
 	pog_leader_uk = {
@@ -131,7 +162,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
@@ -160,14 +191,46 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
 			}
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = inspiring_leader_personality
-			add_ruler_personality = careful_personality
+			add_ruler_personality = legendary_conqueror_personality
+			add_ruler_personality = iron_crowned_personality
+			add_ruler_personality = strict_personality
+		}
+	}
+	allan_leader = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = germanic
+		}
+		allow = {
+			ai = no
+			culture_group = germanic
+		}
+		effect = {
+			define_ruler = {
+				name = "Ashe"
+				dynasty = "Baenre"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 44
+				claim = 100
+				female = yes
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = legendary_conqueror_personality
+			add_ruler_personality = last_knight_personality
+			add_ruler_personality = fierce_negotiator_personality
 		}
 	}
 	pog_leader_austria = {
@@ -187,7 +250,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
@@ -195,6 +258,8 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = strict_personality
 			add_ruler_personality = charismatic_negotiator_personality
+			add_ruler_personality = legendary_conqueror_personality
+			add_ruler_personality = inspiring_leader_personality
 		}
 	}
 	pog_leader_russia = {
@@ -209,12 +274,12 @@ country_decisions = {
 		}
 		effect = {
 			define_ruler = {
-				name = "Vadim"
-				dynasty = "Romanov"
+				name = "Boris"
+				dynasty = "Smirnov"
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
@@ -222,6 +287,37 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = strict_personality
 			add_ruler_personality = just_personality
+			add_ruler_personality = iron_crowned_personality
+			add_ruler_personality = inspiring_leader_personality
+		}
+	}
+	moose_leader = {
+		major = yes
+		potential = {
+			ai = no
+			culture_group = east_slavic
+		}
+		allow = {
+			ai = no
+			culture_group = east_slavic
+		}
+		effect = {
+			define_ruler = {
+				name = "Dmitry"
+				dynasty = "Ivanovich"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 44
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = zealot_personality
+			add_ruler_personality = charismatic_negotiator_personality
+			add_ruler_personality = free_thinker_personality
+			add_ruler_personality = midas_touched_personality
 		}
 	}
 	pog_leader_spain = {
@@ -261,7 +357,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				female = yes
 				religion = catholic
@@ -269,7 +365,10 @@ country_decisions = {
 			}
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = expansionist_personality
-			add_ruler_personality = martial_educator_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = merchant_basileus_personality
+			add_ruler_personality = inspiring_leader_personality
+			
 		}
 	}
 	pog_leader_poland = {
@@ -295,7 +394,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				female = yes
 				religion = ROOT
@@ -303,7 +402,9 @@ country_decisions = {
 			}
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = inspiring_leader_personality
-			add_ruler_personality = martial_educator_personality
+			add_ruler_personality = last_knight_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = industrious_personality
 			
 		}
 	}
@@ -324,14 +425,16 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
 			}
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = strict_personality
-			add_ruler_personality = industrious_personality
+			add_ruler_personality = entrepreneur_personality
+			add_ruler_personality = iron_crowned_personality
+			add_ruler_personality = inspiring_leader_personality
 		}
 	}
 	pog_leader_denmark = {
@@ -357,7 +460,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = danish
@@ -365,6 +468,8 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = inspiring_leader_personality
 			add_ruler_personality = strict_personality
+			add_ruler_personality = entrepreneur_personality
+			add_ruler_personality = legendary_conqueror_personality
 		}
 	}
 	pog_leader_sweden = {
@@ -390,7 +495,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = swedish
@@ -398,6 +503,8 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = martial_educator_personality
 			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = industrious_personality
+			add_ruler_personality = strict_personality
 		}
 	}
 	pog_leader_japan = {
@@ -422,7 +529,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				female = yes
 				religion = ROOT
@@ -431,6 +538,8 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = inspiring_leader_personality
 			add_ruler_personality = expansionist_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = entrepreneur_personality
 			
 		}
 	}
@@ -465,7 +574,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
@@ -473,6 +582,8 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = strict_personality
 			add_ruler_personality = industrious_personality
+			add_ruler_personality = iron_crowned_personality
+			add_ruler_personality = inspiring_leader_personality
 			
 		}
 	}
@@ -497,7 +608,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				religion = ROOT
 				culture = ROOT
@@ -505,21 +616,19 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = martial_educator_personality
 			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = legendary_conqueror_personality
 		}
 	}
 	pog_leader_mamluk = {
 		major = yes
 		potential = {
 			ai = no
-			OR = {
-				tag = MAM
-			}
+			tag = MAM
 		}
 		allow = {
 			ai = no
-			OR = {
-				tag = MAM
-			}
+			tag = MAM
 		}
 		effect = {
 			define_ruler = {
@@ -528,7 +637,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				female = yes
 				religion = ROOT
@@ -537,6 +646,8 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = inspiring_leader_personality
 			add_ruler_personality = strict_personality
+			add_ruler_personality = entrepreneur_personality
+			add_ruler_personality = legendary_conqueror_personality
 		}
 	}
 	pog_leader_oirat = {
@@ -560,7 +671,7 @@ country_decisions = {
 				adm = 6
 				dip = 6
 				mil = 6
-				age = 18
+				age = 44
 				claim = 100
 				female = yes
 				religion = ROOT
@@ -569,6 +680,8 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = inspiring_leader_personality
 			add_ruler_personality = strict_personality
+			add_ruler_personality = last_knight_personality
+			add_ruler_personality = iron_crowned_personality
 		}
 	}
 	pog_leader_1 = {
@@ -594,7 +707,7 @@ country_decisions = {
 			add_ruler_personality = immortal_personality
 			add_ruler_personality = inspiring_leader_personality
 			add_ruler_personality = strict_personality
-			add_ruler_personality = protector_of_the_little_folk_personality
+			add_ruler_personality = legendary_conqueror_personality
 			add_ruler_personality = martial_educator_personality
 		}
 	}
@@ -623,6 +736,62 @@ country_decisions = {
 			add_ruler_personality = expansionist_personality
 			add_ruler_personality = merchant_basileus_personality
 			add_ruler_personality = great_engineer_personality
+		}
+	}
+	pog_leader_3 = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			define_ruler = {
+				name = "John"
+				dynasty = "Universalis"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 44
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = iron_crowned_personality
+			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = legendary_conqueror_personality
+			add_ruler_personality = merchant_basileus_personality
+		}
+	}
+	pog_leader_ethiopia = {
+		major = yes
+		potential = {
+			ai = no
+			tag = ETH
+		}
+		allow = {
+			ai = no
+			tag = ETH
+		}
+		effect = {
+			define_ruler = {
+				name = "Prester"
+				dynasty = "John"
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 44
+				claim = 100
+				religion = ROOT
+				culture = ROOT
+			}
+			add_ruler_personality = immortal_personality
+			add_ruler_personality = zealot_personality
+			add_ruler_personality = strict_personality
+			add_ruler_personality = legendary_conqueror_personality
+			add_ruler_personality = inspiring_leader_personality
 		}
 	}
 }

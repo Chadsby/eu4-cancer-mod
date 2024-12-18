@@ -33,7 +33,7 @@ country_decisions = {
 					tooltip = BYZ_highlighted_by_decision
 					BYZ_roman_empire_decision_trigger = yes
 				}
-				value = 425
+				value = 300
 			}
 				
 			is_at_war = no
